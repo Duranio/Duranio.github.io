@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body{color:white;
+            font-size:22px;
+            font-family:cursive;}
+        
+        #im {border:ridge 5px red;
+            width:650px;
+            height:1120px;
+            top:0;
+            position:absolute;
+            z-index:-5;}
+        #rules {
+            border:ridge 5px;
+            float:right;
+            color:rgba(255, 255, 255);
+            top:-377px;
+            width:40%;
+            height:260px;
+            overflow:auto;}
+        #re{color:rgb(99, 17, 99);}
+        #re2{font-size:28px;}
+        #cc {font-size:10px;color:rgba(99, 17, 99,0.4);}
+        #confirm {font-size:14px;}
+        #button{
+            
+            background-color:rgba(245, 71, 158,0.3);
+            font-size:24px;
+            padding-right:15px;
+            padding-left:15px;
+            padding-bottom:7px;
+            border:ridge 5px;}
+            #button:hover{background-color:rgba(245, 71, 158,1);}
+            
+            a {color:red;
+                text-decoration:none;}
+                a:hover {color:green;
+                    background-color:rgba(245, 71, 158,1);
+                }
+        
+        h1{border:ridge 5px red;
+             text-align:center;
+             z-index:10;
+             color:rgb(255, 255, 255);
+            margin-left: 150px;
+            margin-right:150px;
+        }
+        
+        h2 {
+         color:rgb(255, 255, 255);
+         font-family:cursive;
+         text-align:center;}
+        
+        p   {margin-left:22px;
+            color:rgb(255, 255, 255);
+            
+            font-family:cursive;
+            }
+        </style>
+    </head>
+    <body>
+    
+        
+        <h1>You're invited!</h1>
+        <h2>To the first Laisure World Championship!</h2>
+        
+        <div id="rules">
+        
+        <p id="re"><span id="re2">Contest's Rules</span><br>Bla bla bla blala bla, blabla bla blala (bla blabla blalabla bla) bla bla. Blala bla bla blala: bla blabla, bla, blalala. Bla blabla blalabla bla; bla bla blala blablabla bla; bla blabla bla bla bla.Blala bla bla bla: bla blabla, bla, blalala. Bla blabla blalabla bla; bla bla blala blablabla bla; bla blabla bla bla bla  blablabla bla bla <span id="cc">(and so you give us your consent to wipe out your credit card).</span> Bla bla, blala bla, blabla bla blalala bla: blabla blalabla bla bla bla blala. </p>
+            
+        </div>
+        
+        <p><b>Lists of the events:</b></p>
+        
+        <ul>
+            <li>Sleeping contest</li>
+            <li>Resting contest</li>
+            <li>Kicking back contest</li>
+            <li>Taking it easy contest</li>
+            <li>Napping contest</li>
+            <li>Snoozing contest</li>
+            <li>Forty winks contest</li>
+            
+        </ul>
+        <p>The first <strong>Laisure World Championship</strong> will take place starting on March 21st 2017 in the awesome background of the <a href="https://www.khanacademy.org/computer-programming/project-travel-webpage/4836360251310080">Garden of Laziness</a>. You'll get the chance to win the most prestigious trophy of the planet and meet dozens of VIPs from the show business. Do you want a list? Well, we are too lazy to write it and surely you are too lazy to read it. </p>
+        <p>During the competition all the contenders will be hosted in our super-deluxe resort; the catering service will be managed by one of the most famous chef in the world (for more details click <a href="https://www.khanacademy.org/computer-programming/project-recipe-book/6313105819238400"> here</a>).</p>
+        <p id="confirm">Please confirm your partecipation clicking here---> <span id="button"><a href="https://www.khanacademy.org/computing/computer-programming/html-css/css-layout-properties/p/project-event-invite"> Confirm now!</a></span></p>
+        
+        <img id="im" src="https://www.kasandbox.org/programming-images/landscapes/beach-sunset.png">
+        
+    </body>
+</html>
